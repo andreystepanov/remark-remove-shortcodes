@@ -30,12 +30,12 @@ Say we have the following file, `example.html`:
 And our script, `example.js`, looks as follows:
 
 ```javascript
-import unified from 'unified'
-import rehype from 'rehype-parse'
-import rehype2remark from 'rehype-remark'
-import stringify from 'remark-stringify'
-import vfile from 'to-vfile'
-import removeShortcodes from 'remark-remove-shortcodes'
+const unified = require('unified')
+const rehype = require('rehype-parse')
+const rehype2remark = require('rehype-remark')
+const stringify = require('remark-stringify')
+const vfile = require('to-vfile')
+const removeShortcodes = require('remark-remove-shortcodes')
 
 unified()
   .use(rehype)
