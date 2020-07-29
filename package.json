@@ -1,6 +1,6 @@
 {
   "name": "remark-remove-shortcodes",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Remark plugin to remove WordPress shortcodes",
   "main": "dist/index.js",
   "scripts": {
