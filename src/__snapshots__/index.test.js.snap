@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`removes all WordPress shortcodes 1`] = `
+"Some text
+
+Shortcode content and rest of the text...
+
+Shortcode content 2 and rest of the text...
+
+Text after shortcode
+
+Text before shortcode
+
+Another content...
+"
+`;
